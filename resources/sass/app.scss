@@ -1,0 +1,92 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.h-screen{
+    height: 100vh;
+}
+
+.product-item{
+    margin: 15px 0;
+    padding:15px;
+    background: rgb(255, 255, 255);
+    img{
+        width:400px;
+        display:inline-block;
+    }
+}
+
+.box{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.box-small{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box .box-link{
+    display: block;
+    border-radius: 2px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.box-img{
+    width: 100%;
+}
+
+.bg-line{
+    background-color: rgb(93, 126, 187);
+}
+
+.box-title{
+    padding: 12px;
+    background-color: rgb(105, 137, 151);
+}
+
+.search-box{
+    position: relative;
+    background: rgb(67, 75, 78);
+    height: 35px;
+    border-radius: 35px;
+    padding: 0;
+}
+
+.search-box:hover > .search-text{
+    width: 200px;
+    padding: 0 0px;
+}
+
+.search-btn{
+    color:white;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(82, 131, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text{
+    border:none;
+    background: none;
+    outline: none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 35px;
+    width: 0px;
+}
+
